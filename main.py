@@ -10,10 +10,7 @@ class IPLookup:
 
     def options(self):
         self.API = "https://whatismyipaddress.com/ip/{}".format(self.ip) 
-        proxy = {
-            'https':'159.8.114.34:8123',
-        }
-        self.html = requests.get(self.API, proxies = proxy)
+        self.html = requests.get(self.API)
 
     def ScanIP(self):
         self.options()
