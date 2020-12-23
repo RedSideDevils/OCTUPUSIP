@@ -22,10 +22,11 @@ class IPLookup:
             self.banner = """
 ████████╗ ██╗██╗██████╗ 
 ╚══██╔══╝██╔╝██║██╔══██╗
-   ██║  ██╔╝ ██║██████╔╝  Made by Trippingcarpet(Undefind404) | OCTUPUS series
+   ██║  ██╔╝ ██║██████╔╝  
    ██║ ██╔╝  ██║██╔═══╝   
    ██║██╔╝   ██║██║     
-   ╚═╝╚═╝    ╚═╝╚═╝                      
+   ╚═╝╚═╝    ╚═╝╚═╝   
+   Made by Trippingcarpet(Undefind404) | OCTUPUS series
             """
             self.output = Fore.GREEN + """        
 IP           > {}
